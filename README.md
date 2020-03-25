@@ -1,2 +1,2 @@
 # JavaObjetos
-Carpetas divididas por clase
+Carpetas divididas por clases y PDF´S
