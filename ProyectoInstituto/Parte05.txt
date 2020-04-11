@@ -1,0 +1,20 @@
+Ejercicio 1
+Leer el siguiente texto y armar un diagrama UML de clases, incluyendo atributos, métodos,
+constructores, relaciones herencias. Luego codificarlo en Java.
+Información relevada
+Se debe manejar las asignaciones de cursos en un instituto de enseñanza Superior. Este instituto
+cuenta con un grupo de profesionales que se dedican al dictado de cursos siendo los instructores de
+los mismos. Cada instructor es informado de las asignaciones de curso que tienen designadas. Para
+que un curso se habilite, se deben inscribir por lo menos tres alumnos. Una vez que se da de alta un
+curso, el mismo se incluye en un calendario para asignarle el aula correspondiente. Como el
+instituto registra la dirección con los datos completos tanto de los instructores como de los alumnos,
+por medio de ellas se informa a cada uno el comienzo de cada curso una vez que el mismo se colocó
+en el calendario.
+Cada alumno para mantener su condición de regular, deberá estar asignado por lo menos a un curso.
+Cada curso puede ser programado en el calendario con más de un turno (tarde, mañana o noche).
+Se cuenta, para esto, con las direcciones de ambos, alumnos y profesores, con los datos completos.
+Cada alumno puede ser asignado como mínimo a un curso y los cursos deben tener un mínimo de
+tres alumnos para que se coloquen en el calendario y comiencen.
+Cada aula tiene diferentes cantidades de escritorios, sillas, pizarrones y computadoras, los cuales se
+tienen en cuenta al momento de asignar los cursos a las aulas según la cantidad de inscriptos que
+posea.
