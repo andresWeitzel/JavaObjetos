@@ -8,6 +8,7 @@ package clase20;
 import java.util.ArrayDeque;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.PriorityQueue;
 import java.util.Queue;
 
 /**
@@ -22,10 +23,10 @@ public class Clase20 {
     public static void main(String[] args) {
         // TODO code application logic here
         
-         System.out.println("\n☻☻FRAMEWORK COLLECTION☻☻\n");
+       
           System.out.println("\n☻☻FRAMEWORK COLLECTION☻☻\n");
         System.out.println("♠♠Interfaz List♠♠\n");
-        System.out.println("\n**implementamos la clase Listas**");       
+        System.out.println("\n**implementamos la clase ArrayList**");       
         
        //List  lista1=new ArrayList();
        List <Auto> lista1=new ArrayList();
@@ -44,7 +45,11 @@ public class Clase20 {
         Queue <Auto> colaAutos;
         
         System.out.println("\n••Implementamos la clase ArrayDequeu••");
-        colaAutos=new ArrayDeque();
+        //colaAutos=new ArrayDeque();//Comentamos ya que utilizaremos polimorfismo
+        
+        //El siguiente metodo nos prioriza una cola para descolar por orden natural(alfabetico)
+        colaAutos=new PriorityQueue();
+        
         
         //Encolamos objetos(agregar a la cola)
         //Eswte metodo nos permite encolar elemnetos
